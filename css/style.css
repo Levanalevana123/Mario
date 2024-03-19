@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Road {
+  width: 1600px;
+  height: auto;
+}
+
+.Luigi {
+  position: absolute;
+  top: 760px;
+  left: -130px;
+  animation-name: luigisAnimation;
+  animation-duration: 1.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.Mario {
+  left: -130px;
+  position: absolute;
+  top: 650px;
+  animation-name: mariosAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mariosAnimation {
+  0% {
+    left: -130px;
+  }
+  100% {
+    left: 1950px;
+  }
+}
+
+@keyframes luigisAnimation {
+  0% {
+    left: -130px;
+  }
+
+  100% {
+    left: 1950px;
+  }
+}
+
+audio {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  left: 430px;
+  color: darkblue;
+}
